@@ -25,7 +25,7 @@ const PromptField = () => {
 
   return (
     <div
-      className="prompt-field flex flex-col items-start justify-start w-full
+      className="flex flex-col items-start justify-start w-full
     font-inconsolataregular text-black
     lg:items-center lg:justify-center "
     >
