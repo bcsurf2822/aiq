@@ -131,12 +131,5 @@ const PentagramContent = () => {
   );
 };
 
-const Pentagram = () => {
-  return (
-    <PentagramProvider>
-      <PentagramContent />
-    </PentagramProvider>
-  );
-};
+export default PentagramContent;
 
-export default Pentagram;
