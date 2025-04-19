@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 import ExportSinglePrompt from "./ExportSinglePrompt";
 import CopyButton from "./CopyButton";
-import "../index.css";
+// import "../index.css";
 
 const ResponseDisplay = ({ responseText, setResponseText, inputs }) => {
   const responseEndRef = useRef(null);
