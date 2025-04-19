@@ -21,7 +21,7 @@ function App() {
       <div className="flex flex-col min-h-screen bg-gradient-to-tr from-[#02010B] to-[#070062]">
         <BackgroundEffect />
         <Header />
-        <main className=" relative flex flex-col items-center">
+        <main className="flex-1 relative flex flex-col items-center">
           <PentagramProvider>
             <Routes>
               <Route path="/" element={<HeroSection />} />

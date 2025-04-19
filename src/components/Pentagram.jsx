@@ -32,7 +32,7 @@ const PentagramContent = () => {
   };
 
   return (
-    <div className="mx-auto px-4 py-6 w-screen justify-items-center">
+    <div className="flex flex-col items-center w-full max-w-3xl mx-auto px-4 py-6">
       <h1 className="text-4xl text-[#A3CAF6] font-karlabold font-bold text-center mb-2">
         AiQ
       </h1>
@@ -59,7 +59,7 @@ const PentagramContent = () => {
         ))}
       </div>
 
-      <div className="md:w-1/2 w-7/8">
+      <div className="w-full">
         {/* Pentagram Category and Tooltip */}
         <div className="flex justify-between items-center pb-2">
           {pentaPrompts[index] && (
@@ -88,11 +88,11 @@ const PentagramContent = () => {
         </div>
       </div>
 
-      <div className="md:w-1/2 w-7/8 mb-6">
+      <div className="w-full mb-6">
         <PromptField />
       </div>
 
-      <div className="flex justify-between items-center mb-8 md:w-1/2 w-7/8">
+      <div className="flex justify-between items-center mb-8 w-full">
         <button
           onClick={onPrevious}
           className={`font-inconsolataregular px-4 py-1 transition-colors text-black text-base rounded ${
