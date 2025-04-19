@@ -36,6 +36,7 @@ const HeroSection = () => {
               navigate("/pentagram");
             }}
           >
+            Words
             Get Started
           </div>
         </div>
